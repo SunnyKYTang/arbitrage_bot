@@ -3,7 +3,7 @@
 
 A variety of financial instruments, including `arbitrage`, `liquidation`, `lending`, etc. have been migrated to the cryptocurrency space and are now implemented within the crypto ecosystem.
 
-By utilizing these tools, individuals can conduct large-scale financial activities independently, without requiring privileged access or additional external resources.
+By utilizing these tools, individuals can lunch large-scale financial activities independently, without requiring privileged access or additional external resources.
 
 ![No priviledge in crypto world](img/homepage_illustration.webp "It was the best of times, it was the worst of times")
 
