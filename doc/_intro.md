@@ -19,7 +19,8 @@ https://app.uniswap.org/whitepaper-v3.pdf
 https://developers.uniswap.org/docs
 ```
 
-The tools we used include:
+The tools I used include:
 ```commandline
 [Foundry](https://github.com/foundry-rs/foundry)
 ```
+<span style="color:red"><b>Disclaimer: This code is for educational purposes only and comes with no guarantee of profit or performance.</b></span>
