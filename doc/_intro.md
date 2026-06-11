@@ -8,7 +8,7 @@ By utilizing these tools, individuals can lunch large-scale financial activities
 ![No priviledge in crypto world](img/homepage_illustration.webp "It was the best of times, it was the worst of times")
 
 Among these instruments, arbitrage bots generate profit by exploiting price discrepancies across different chains, DEXs, or liquidity pools.
-In this technical report, I will guide you step by step on designing an arbitrage bot, covering `cross-chain`, `cross-DEX`, and `triangular arbitrage` in the era of cryptocurrency.
+In this technical report, I will guide you step by step on designing an arbitrage bot, covering `cross-chain`, `cross-DEX`, and `triangular` arbitrage in the era of cryptocurrency.
 
 Before getting started, I recommend that readers consult the following materials for a better understanding of this report:
 
