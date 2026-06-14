@@ -1,14 +1,16 @@
 # How to design a triangular arbitrage bot
-Introduction
-Triangular arbitrage is a commonly used trading strategy in financial and cryptocurrency markets. It refers to the process of taking advantage of price differences among three related trading pairs in order to generate profit. With the rapid development of blockchain technology and decentralized exchanges, triangular arbitrage has become an important research topic in modern digital asset trading.
-In this report, a classic triangular arbitrage case is used to explain the fundamental principles behind this trading strategy. Through the analysis of this case, the mechanism of triangular arbitrage can be clearly understood, particularly how price discrepancies between different trading pairs or blockchain networks create arbitrage opportunities.
-Compared with traditional arbitrage strategies, triangular arbitrage is generally more complex due to the involvement of multiple transactions and stricter timing requirements. Therefore, the establishment of an efficient triangular arbitrage system requires accurate market analysis, rapid transaction execution, and effective risk management.
-This report will further discuss the operational process of triangular arbitrage in a detailed and systematic manner. In addition, the report will demonstrate how a triangular arbitrage system can be designed and implemented, as well as analyze its workflow and practical challenges. Several related concepts and supporting knowledge will also be introduced to provide a more comprehensive understanding of the topic.
+## Introduction
 
+Triangular arbitrage is a trading strategy commonly observed in both traditional financial markets and cryptocurrency ecosystems. It aims to generate risk-free profit by exploiting price discrepancies among three currency pairs or digital assets that form a closed loop (e.g., BTC/USD, ETH/BTC, ETH/USD). With the rapid growth of blockchain technology and the emergence of decentralized exchanges (DEXs), triangular arbitrage has gained renewed attention due to the unique market structures and latency characteristics of digital asset trading.
 
-Case analysis
+This report introduces a classic triangular arbitrage case to illustrate the fundamental principles of this strategy. By analyzing this case, the underlying mechanism—specifically how price differences across trading pairs create exploitable opportunities—can be clearly understood. Compared with simple two-asset arbitrage, triangular arbitrage is generally more complex, as it involves multiple transactions and imposes stricter requirements on execution speed and sequencing.
+
+Consequently, building an efficient triangular arbitrage system necessitates accurate market data feeds, rapid trade execution, and robust risk management. This report systematically discusses the operational workflow of triangular arbitrage, including how such a system can be designed and implemented. It also analyzes practical challenges encountered in real-market environments, such as transaction fees, slippage, and network latency. Additionally, several related concepts (e.g., cross-exchange arbitrage, pathfinding algorithms) are introduced to provide a more comprehensive understanding of the topic.
+
+## Case analysis
 
 In this technical report, you will learn about the background, the specific case of triangular arbitrage, also, you will learn how to design a triangular arbitrage step by step.
+
 In order to study this specific case, we firstly fork the Ethereum mainnet at the block of 22185680. At that specific time period, we can therefore, figure out how the arbitrage opportunity is formed and how can we find it.
 In the liquidity pool, the ratio of the numbers of the two tokens represents the relative price of that token. Look an the case below, we can figure out the relative price of HarryPotterObamaSonic10I...
 (BITCOIN) using the following expression.
